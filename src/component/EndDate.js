@@ -1,7 +1,7 @@
 import React from 'react'; 
 function EndDate() { 
 return(
-    <div> End Date: <input type= 'text' name = 'eDate'/> </div>
+    <div> End Date: <input type= 'text' id = 'eDate'/> </div>
 
 ); 
 } 
