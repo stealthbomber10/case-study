@@ -8,7 +8,7 @@ return(
         <StartDate />
         <EndDate />
         <StockTicker />
-        <input type= 'submit'/> 
+        <div className="button"> <input type= 'submit'/>  </div>
     </div>
 
 ); 

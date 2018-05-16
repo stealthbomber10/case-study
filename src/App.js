@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
         <LineChart data={{"2017-01-01": 11, "2017-01-02": 6}} />
-        <Search/>
+        <Search/> 
     </div> 
     );
   }

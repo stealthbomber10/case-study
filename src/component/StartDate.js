@@ -1,7 +1,7 @@
 import React from 'react'; 
 function StartDate(){
     return(     
-        <div> Start Date: <input type= 'text'/> </div>
+        <div className="start-date"> Start Date: <input type= 'text'/> </div>
 
     ); 
     } 
