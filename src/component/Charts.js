@@ -16,7 +16,7 @@ const options = {
 
 function Charts() {
     return (
-        <div>
+        <div className="Charts">
             <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
