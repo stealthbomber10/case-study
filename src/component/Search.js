@@ -2,18 +2,13 @@ import React from 'react';
 import StartDate from './StartDate'
 import EndDate from './EndDate'
 import StockTicker from './StockTicker'
-function Search() { 
-return(
+function Search() {  return(
     <div>
-        <form>
             <StartDate />
             <EndDate />
             <StockTicker />
-            <input type= 'submit' value = 'Submit'/> 
-        </form>
-    </div>
+           <div className="button" /> <input type= 'submit' value = 'Submit' class = 'button'/> <div/>
+    </div> ); 
+    } 
 
-); 
-} 
-
-export default Search; 
+    export default Search; 

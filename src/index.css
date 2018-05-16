@@ -3,3 +3,30 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.start-date {
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  left: 500px;
+} 
+.end-date {
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  left: 940px;
+} 
+
+.stock-ticker{
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+} 
+
+.button{
+
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  left: 1200px;}
