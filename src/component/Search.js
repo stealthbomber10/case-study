@@ -11,4 +11,8 @@ function Search() {  return(
     </div> ); 
     } 
 
+<<<<<<< HEAD
+export default Search; 
+=======
     export default Search; 
+>>>>>>> 4dfd6184bb59048bd7b4fafe7b4d6a16fd129857
