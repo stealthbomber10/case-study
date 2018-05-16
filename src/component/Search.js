@@ -11,4 +11,4 @@ function Search() {  return(
     </div> ); 
     } 
 
-    return default Search; 
+export default Search; 
