@@ -5,10 +5,12 @@ import StockTicker from './StockTicker'
 function Search() { 
 return(
     <div>
-        <StartDate />
-        <EndDate />
-        <StockTicker />
-        <input type= 'submit'/> 
+        <form>
+            <StartDate />
+            <EndDate />
+            <StockTicker />
+            <input type= 'submit' value = 'Submit'/> 
+        </form>
     </div>
 
 ); 
