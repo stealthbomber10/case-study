@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <LineChart data={{"2017-01-01": 11, "2017-01-02": 6}} />
+        <LineChart data={{"2017-01-01": 11, "2017-01-02": 6}} width="800px" height="500px" />
         <Search/>
     </div> 
     );
