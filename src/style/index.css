@@ -32,6 +32,7 @@ body {
   left: 1200px;}
 
 .Charts{
-  position: absolute;
-  top: 100px;
-}
+    position: relative;
+    align-content: center;
+    top: 100px;
+  }
