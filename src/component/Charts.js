@@ -14,15 +14,40 @@ const options = {
 ]
 }
 
-function Charts() {
-    return (
-        <div className="Charts">
-            <HighchartsReact
+class Charts extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        };
+    }
+
+    componentWillReceiveProps(props) {
+        console.log("New data received to redraw chart.");
+        // parse data from props and map to chart data
+    }
+
+    render() {
+        return (
+            <div className="Charts">
+                <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
-            />
-        </div>
-    );
+                />
+            </div>
+        )
+    }
 }
+
+// function Charts() {
+//     return (
+//         <div className="Charts">
+//             <HighchartsReact
+//                 highcharts={Highcharts}
+//                 options={options}
+//             />
+//         </div>
+//     );
+// }
 
 export default Charts;
