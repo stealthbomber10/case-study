@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import StartDate from './component/StartDate';
-import EndDate from './component/EndDate'; 
+import Search from './component/Search';
+
 
 class App extends Component {
   render() {
     return (
-  <div> <StartDate/>
-  <EndDate/>  </div> 
+      <div> <Search/>
+    </div> 
     );
   }
 }
