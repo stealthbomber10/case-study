@@ -16,7 +16,6 @@ function Charts() {
         <div>
             <HighchartsReact
                 highcharts={Highcharts}
-                constructorType={'stockChart'}
                 options={options}
             />
         </div>
