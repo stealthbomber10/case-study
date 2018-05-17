@@ -8,10 +8,18 @@ const options = {
     },
     series: [{
       data: [1,5,18,29,56,110],
-      pointStart: 2000
     }
     
-]
+    ],
+    xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+    },
+    line: {
+        dataLabels: {
+            enabled: true
+        },
+        enableMouseTracking: true
+    }
 }
 
 class Charts extends React.Component {

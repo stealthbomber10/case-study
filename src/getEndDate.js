@@ -1,7 +1,6 @@
 import React from 'react'
-function getEndDate(e){
+function getEndDate(){
     var x = document.getElementById('eDate').value;
-    alert(x);
     return x;
 }
 export default getEndDate

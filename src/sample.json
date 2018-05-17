@@ -1,0 +1,23 @@
+    {
+        "symbol":"ATVI",
+        "name":"Activision Blizzard Inc",
+        "headquartersCity":"Santa Monica",
+        "headquartersStateOrCountry":"CA",
+        "numberOfEmployees":9600,
+        "sector":"Technology",
+        "industry": "Internet Gaming",
+        "dataPoints": 11,
+        "stockInfo":[ 
+            ["2/16/2018", "205.43"], 
+            ["2/20/2018", "207.68"],
+            ["3/2/2018", "213.77"],
+            ["3/15/2018", "199.43"],
+            ["3/17/2018", "210.08"],
+            ["4/3/2018", "242.38"],
+            ["4/4/2018", "231.23"],
+            ["4/6/2018", "235.08"],
+            ["4/21/2018", "243.61"],
+            ["5/1/2018", "238.49"],
+            ["5/5/2018", "262.78"]
+        ]
+    }

@@ -2,10 +2,10 @@ import React from 'react';
 import StartDate from './StartDate'
 import EndDate from './EndDate'
 import StockTicker from './StockTicker'
-import getStartDate from '../getStartDate'
+import getRequest from '../getRequest';
 function Search() {  return(
     <div>
-        <form onSubmit = {getStartDate}>
+        <form onSubmit = {getRequest}>
             <StartDate />
             <EndDate />
             <StockTicker />
